@@ -12,7 +12,6 @@
 - [Installation](#installation)
 - [Usage](#usage)
   - [ESM Example](#esm-example)
-  - [CommonJS Example](#commonjs-example)
 - [API](#api)
 - [TypeScript](#typescript)
 - [License](#license)
@@ -31,13 +30,6 @@ npm install @eliware/module-template
 
 ```js
 // Example for ESM (module JS) usage
-
-```
-
-### CommonJS Example
-
-```js
-// Example for CommonJS usage
 
 ```
 
