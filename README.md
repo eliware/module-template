@@ -9,14 +9,27 @@
 ## Table of Contents
 
 - [Features](#features)
+- [Requirements](#requirements)
 - [Installation](#installation)
 - [Usage](#usage)
   - [ESM Example](#esm-example)
 - [API](#api)
 - [TypeScript](#typescript)
+- [Errors / Troubleshooting](#errors--troubleshooting)
+- [Development](#development)
+- [Security](#security)
 - [License](#license)
 
 ## Features
+
+- Minimal ESM package structure for new Node.js libraries
+- Jest, coverage, lint, TypeScript, and package validation scripts
+- Public entrypoint, declarations, README, license, and safe example layout
+
+## Requirements
+
+- Node.js 26 or newer
+
 
 ## Installation
 
@@ -52,6 +65,26 @@ Type definitions are included:
 ```ts
 
 ```
+
+## Errors / Troubleshooting
+
+This repository is a starting template, not a complete application. Replace placeholder API text and examples before publishing a specialized module. Keep runtime exports, declarations, tests, and README synchronized.
+
+## Development
+
+```bash
+npm test
+npm run test:gaps
+npm run lint
+npm run typecheck
+npm run pack
+```
+
+Customize package metadata, API behavior, tests, and documentation before using this as a production library.
+
+## Security
+
+Keep examples credential-free and do not add secrets, `.env` files, private URLs, or credentials to the template. Review dependencies and package contents before distributing a derived module.
 
 ## Support
 
