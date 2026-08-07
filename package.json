@@ -60,7 +60,7 @@
     ]
   },
   "dependencies": {
-    "@eliware/common": "^1.1.5"
+    "@eliware/common": "^1.1.6"
   },
   "main": "index.mjs"
 }
