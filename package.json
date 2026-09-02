@@ -2,7 +2,7 @@
     "name": "@eliware/module-template",
     "type": "module",
     "version": "1.1.0",
-    "description": "A Node.js module-template.",
+    "description": "A reusable ESM Node.js library template with TypeScript declarations, tests, linting, and CI-ready packaging.",
     "types": "index.d.ts",
     "files": [
         "index.mjs",
