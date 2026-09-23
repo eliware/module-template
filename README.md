@@ -18,7 +18,9 @@
 - [Errors / Troubleshooting](#errors--troubleshooting)
 - [Development](#development)
 - [Security](#security)
+- [Support](#support)
 - [License](#license)
+- [Links](#links)
 
 ## Features
 
