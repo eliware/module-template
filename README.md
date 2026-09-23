@@ -32,7 +32,6 @@
 
 - Node.js 26 or newer
 
-
 ## Installation
 
 ```bash
@@ -45,7 +44,6 @@ npm install @eliware/module-template
 
 ```js
 // Example for ESM (module JS) usage
-
 ```
 
 ## API
