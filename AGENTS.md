@@ -16,8 +16,10 @@
 ## Development
 
 - Use Node.js 26 and native ESM.
+- Read README.md, applicable specs, and the shared Docs, Conventions, and Operations authorities before changing files.
 - Keep `index.mjs`, `index.d.ts`, README, tests, and package exports synchronized.
 - Replace placeholder API text and examples when specializing the template.
+- Preserve the public API, export, declaration, and package-allowlist contract when changing the template.
 - Keep examples credential-free and safe to run.
 
 ## Validation
@@ -28,6 +30,6 @@ Run `npm test`, `npm run test:gaps`, `npm run lint`, `npm run typecheck`, and `n
 
 Never commit credentials, private URLs, `.env` files, or secret-bearing examples.
 
-## Release
+## Changes
 
 Do not bump versions, tag, publish, or push unless explicitly requested. Update declarations, docs, and release notes when the template API changes.

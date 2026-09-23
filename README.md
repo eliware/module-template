@@ -1,6 +1,8 @@
 # [![eliware.org](https://eliware.org/logos/brand.png)](https://discord.gg/M6aTR9eTwN)
 
-## @eliware/module-template [![npm version](https://img.shields.io/npm/v/@eliware/module-template.svg)](https://www.npmjs.com/package/@eliware/module-template)[![license](https://img.shields.io/github/license/eliware/module-template.svg)](LICENSE)[![build status](https://github.com/eliware/module-template/actions/workflows/nodejs.yml/badge.svg)](https://github.com/eliware/module-template/actions)
+## @eliware/module-template [![license](https://img.shields.io/github/license/eliware/module-template.svg)](LICENSE)[![build status](https://github.com/eliware/module-template/actions/workflows/nodejs.yml/badge.svg)](https://github.com/eliware/module-template/actions)
+
+Documentation: [docs](docs/README.md) · [specifications](specs/README.md) · [examples](examples/README.md) · [release notes](RELEASE_NOTES.md)
 
 > A module-template for Node.js (Insert Brief Description)
 
@@ -32,7 +34,7 @@
 
 - Node.js 26 or newer
 
-## Installation
+## Setup
 
 ```bash
 npm install @eliware/module-template
@@ -66,7 +68,12 @@ Type definitions are included:
 
 ```
 
-## Errors / Troubleshooting
+## Testing
+
+Run the documented test, lint, typecheck, and package checks during template
+validation.
+
+## Troubleshooting
 
 This repository is a starting template, not a complete application. Replace placeholder API text and examples before publishing a specialized module. Keep runtime exports, declarations, tests, and README synchronized.
 

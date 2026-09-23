@@ -47,6 +47,27 @@
   ],
   "author": "Eli Sterling, eliware.org <eli@eliware.org>",
   "license": "MIT",
+  "eliware": {
+    "apply": [
+      "general",
+      "library"
+    ],
+    "authority": {
+      "authoritativeFor": [
+        "Module template structure and public library example surface."
+      ],
+      "notAuthoritativeFor": [
+        "Shared Eliware policy, operations, and publication authorization."
+      ]
+    },
+    "crosslinks": [
+      {
+        "path": "eliware/conventions",
+        "relationship": "relatedAuthority",
+        "authoritativeFor": "Applicable repository conventions."
+      }
+    ]
+  },
   "bugs": {
     "url": "https://github.com/eliware/module-template/issues"
   },
